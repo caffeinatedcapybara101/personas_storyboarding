@@ -71,7 +71,7 @@ h1 {
     border-bottom: 3px solid #ff9797;
 }
 
-li {
+ul li {
     list-style-type: circle;
 }
 
@@ -80,10 +80,42 @@ li {
     text-align: center;
 }
 
-img {
+.figures img {
     margin-left: auto;
     margin-right: auto;
     width: 600px;
+}
+
+/* table for user observation */
+.user-obs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.user-obs table {
+    width: 575px;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #ff9797;
+}
+
+.table-head {
+    text-align: center;
+    border-bottom: 2px solid #ff9797;
+    height: 25px;
+}
+
+/* storyboard images */
+.storyboard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.storyboard img {
+    width: 350px;
+    margin: 7px;
 }
 
 /************************ handles changes resizing changes ************************/
