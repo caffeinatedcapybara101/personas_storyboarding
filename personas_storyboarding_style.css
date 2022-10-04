@@ -77,13 +77,31 @@ ul li {
 
 /* images */
 .figures {
+    display: flex;
+    justify-content: center;
     text-align: center;
+    flex-wrap: wrap;
 }
 
-.figures img {
+.single-figure {
+    display: inline;
+    margin: 5px;
+    border: 2px solid #ff9797;
+    padding: 7px;
+    width: 375px;
+    height: 760px;
+}
+
+.single-figure img {
     margin-left: auto;
     margin-right: auto;
-    width: 600px;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.single-figure p {
+    width: 100%;
+    vertical-align: middle;
 }
 
 /* table for user observation */
@@ -104,6 +122,11 @@ ul li {
     text-align: center;
     border-bottom: 2px solid #ff9797;
     height: 25px;
+}
+
+/* persona images */
+.persona-img {
+    width: 500px;
 }
 
 /* storyboard images */
