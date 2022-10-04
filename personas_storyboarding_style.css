@@ -15,7 +15,8 @@ body {
 
 /***** title/heading *****/
 #header-bracket {
-    height: 141px;
+    height: max-content;
+    margin-bottom: 30px;
 }
 
 #header-bracket:before {
@@ -80,7 +81,21 @@ li {
 }
 
 img {
-    width: 40%;
     margin-left: auto;
     margin-right: auto;
+    width: 600px;
+}
+
+/************************ handles changes resizing changes ************************/
+
+@media (max-width:934px) {
+    #header-bracket:before {
+        height: 175px;
+    }
+}
+
+@media (max-width:750px) {
+    img {
+        width: 100%;
+    }
 }
